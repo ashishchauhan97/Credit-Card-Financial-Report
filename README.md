@@ -51,6 +51,7 @@ WoW change:
 • Revenue increased by 28.8%,
 
 Overview YTD :
+
 • Overall revenue is 57M
 
 • Total interest is 8M
