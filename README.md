@@ -17,6 +17,8 @@ TRUE(),
 'ccdb cust_detail'[customer_age] >= 60, "60+",
 "unknown"
 )
+
+
 IncomeGroup = SWITCH(
 TRUE(),
 'ccdb cust_detail'[income] < 35000, "Low",
@@ -24,15 +26,20 @@ TRUE(),
 'ccdb cust_detail'[income] >= 70000, "High",
 "unknown"
 )
+
+
 #DAX Queries
 
 week_num2 = WEEKNUM('public cc_detail'[week_start_date])
+
 Revenue = 'ccdb cc_detail'[annual_fees] + 'ccdb cc_detail'[total_trans_amt] + 'ccdb cc_detail'[interest_earned]
+
 Current_week_Reveneue = CALCULATE(
 SUM('ccdb cc_detail'[Revenue]),
 FILTER(
 ALL('ccdb cc_detail'),
 'ccdb cc_detail'[week_num2] = MAX('ccdb cc_detail'[week_num2])))
+
 Previous_week_Reveneue = CALCULATE(
 SUM('ccdb cc_detail'[Revenue]),
 FILTER(
