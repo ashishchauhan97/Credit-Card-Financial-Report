@@ -47,8 +47,13 @@ ALL('ccdb cc_detail'),
 'ccdb cc_detail'[week_num2] = MAX('ccdb cc_detail'[week_num2])-1))
 
 #Project Insights- Week 53 (31st Dec)
-WoW change:
-• Revenue increased by 28.8%,
+WoW change :
+
+• Revenue increased by 28.8%
+
+• Total Transaction amount increased by 35%
+
+• Customer count increased by 28.31%
 
 Overview YTD :
 
@@ -62,8 +67,7 @@ Overview YTD :
 
 • Blue & Silver credit card are contributing to 93% of overall transactions
 
-• TX, NY & CA is contributing to 68%
+• TX, NY & CA is contributing to 73%
 
 • Overall Activation rate is 57.5%
 
-• Overall Delinquent rate is 6.06%
