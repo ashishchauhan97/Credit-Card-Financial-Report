@@ -50,7 +50,7 @@ ALL('ccdb cc_detail'),
 WoW change:
 • Revenue increased by 28.8%,
 
-Overview YTD:
+Overview YTD :
 • Overall revenue is 57M
 • Total interest is 8M
 • Total transaction amount is 46M
